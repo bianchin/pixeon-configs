@@ -13,6 +13,13 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 5000
 
+spring:
+  data:
+    mongodb:
+      host: cluster0-shard-00-00-96z4g.mongodb.net
+      port: 27017
+      database: pixeon
+
 logging:
   level:
     root: INFO
