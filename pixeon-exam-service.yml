@@ -20,6 +20,13 @@ spring:
       port: 27017
       database: pixeon
 
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 160000000
+        readTimeout: 160000000
+
 logging:
   level:
     root: INFO
